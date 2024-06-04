@@ -227,7 +227,6 @@ CMAKE_ARGS="-DLLAMA_SYCL=on -DCMAKE_C_COMPILER=icx -DCMAKE_CXX_COMPILER=icpx" pi
 To install with RPC support, set the `LLAMA_RPC=on` environment variable before installing:
 
 ```bash
-source /opt/intel/oneapi/setvars.sh   
 CMAKE_ARGS="-DLLAMA_RPC=on" pip install llama-cpp-python
 ```
 </details>
